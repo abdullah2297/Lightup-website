@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About us</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet"/>
+    <link href="css/all.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="images/fav.png" rel="shortcut icon"/>
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet"/>
+  </head>
+  <body>
+<!-- start To top button -->
+
+    <div class="to-top">
+      
+      <i class="fa fa-angle-up fa-2x"></i>
+
+    </div>
+
+
+    <!-- End To top button -->
+
+
+    <!-- start up bar -->
+
+    <div class="up-bar d-flex">
+
+      <div class="container to-flex">
+
+        <div class="information">
+
+          <div class="phone-number">
+            
+            <i class="fas fa-phone"></i>
+
+            <p>+20 01011245536</p>
+
+          </div>
+
+          <div class="mail d-flex">
+            
+            <i class="fas fa-envelope"></i><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">abdullah.elsayed2297</a>
+          
+          </div>
+
+          <div class="user d-flex" id="myAcc">
+            
+            <i class="fas fa-user"></i>
+
+            <p>My Account</p>
+
+          </div>
+
+          <div class="sign-up">
+            
+            <form class="logForm" onsubmit="return formValidate()" name="logForm" method="GET">
+              
+              <i class="fas fa-user"></i>
+              
+              <input type="text" placeholder="user name" name="user"/>
+              
+              <i class="fas fa-lock"></i>
+              
+              <input type="password" placeholder="password" name="password"/>
+              
+              <input type="submit" value="Log in"/>
+
+            </form>
+
+          </div>
+
+        </div>
+
+        <div class="social-icons">
+
+          <ul class="d-flex">
+            
+              <a href="https://www.facebook.com/A.ElsayedVIP/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/abdullah-elsayed" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+              <a href="https://dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+              <a href="https://www.instagram.com/abdulla_elsayed" target="_blank"><i class="fab fa-instagram"></i></a>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- End up bar -->
+
+
+    <!--start nav bar -->
+    <header class='about-page'>
+    <!--start nav bar -->
+
+      <nav class="navbar navbar-expand-lg" id="myNav">
+
+        <div class="container">
+          
+          <a class="navbar-brand" href="#">
+
+            <img src="images/Logo.png" id='logo-src' width="170" height="60" title="Light up" alt="Light up Logo">
+
+          </a>
+
+          <li class="nav-item dropdown library">
+
+            <a class="nav-link dropdown-toggle" id='library' data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Library</a>
+
+            <div class="dropdown-menu" id='library-menu'>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+
+          </li>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="navbar-toggler-icon fas fa-bars"></i>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ml-auto">
+                
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign up</a>
+              </li>
+                        
+            </ul>
+
+            <i class="fas fa-search" id="search"></i>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="search" id="search-window">
+
+        <form>
+          <i class="fas fa-times" id="close-search"></i>
+          <input type="text" placeholder="Type And Press Enter..." autofocus="autofocus"/>
+        </form>
+
+      </div>
+
+    <!--End nav bar -->
+      <div class="container">
+
+        <div class="agency">
+
+            <h2 class="h1">We Are UpSolution Agency</h2>
+
+            <a href="#" class='to-next' data-scroll='intro'>
+
+              <i class="fas fa-chevron-down"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      <div class="overlay"></div>
+
+    </header>
+    <!-- End header -->
+    <!-- Start nav section in about -->
+    <section class="nav-about" id="nav-about">
+
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item"><a class="nav-link active" href="#" data-scroll="intro">Introduction</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="video">Watch Video</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="team">Our Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="clients">Our Clients</a></li>
+        
+        </ul>
+    </section>
+      
+    <!--start about page who us-->
+    <div class="whoUs pt-5" id='intro'>
+
+      <div class="content">
+            <h3>Who Us</h3>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+
+    </div>
+<!--end about page who us-->
+  <!-- Start Section About Us video-->
+    <section class="Section_About_Us" id='video'>
+
+      <div class="Section_About_Us_Content">
+
+        <div class="Section_About_Us_Video">
+
+          <video loop id="My_Video">
+            <source src="video/light-up.mp4" type="video/mp4">
+            This Browser Doesn't Support This Video
+          </video>
+
+        </div>
+
+        <div class="Section_About_Us_Body">
+
+              <h2>about <span>us</span></h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iure fuga. Ipsam pariatur perspiciatis neque consequatur autem qui dolor aliquid.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iure fuga. Ipsam pariatur perspiciatis neque consequatur autem qui dolor aliquid.</p>
+              <button type="button" id="My_Btn">Play Video</button>
+
+        </div>
+
+      </div>
+    </section>
+
+<!-- End Section About Us video--> 
+<!--start about page our team-->
+    <div class="ourTeam" id='team'>
+      <div class="container">
+        <div class="row">
+        <!-- section header-->
+          <div class="topcontent">
+
+            <h3>Our Team </h3>
+
+          </div>
+
+        </div>
+  <!-- our team content-->
+      <div class="bottomcontent">
+
+        <div class="row">
+
+          <div class="con  col-sm-12 col-md-12 col-lg-4">
+
+          <div class="card  " style="width: 18rem;">
+
+          <!-- overlay-->
+         <div class="cardooverlay"> 
+
+           <img src="./images/ourteam.jpg" class="card-img-top rounded-circle " alt="image contain person">
+         
+           <div class="card-img-overlay">
+
+             <!--overlay caption-->
+
+          <div class="caption">   
+
+              <a href="#"><i style="font-size:25px;" class="fab fa-facebook"></i></a>
+              <a href="#"><i style=" font-size:25px;" class="fab fa-twitter"></i></a>
+              <a href="#"><i style=" font-size:25px;" class="fab fa-whatsapp"></i></a>
+              <a href="#"> <i style="font-size:25px;" class="fab fa-youtube"></i></a>
+             
+            </div>
+
+          </div>
+
+        </div> 
+                <!--card body & content-->
+          <div class="card-body">
+              <h5 class="card-title">John Due</h5>
+              <p class="card-title text-center"><span>CEO</span></p><p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div></div> </div>
+          <div class="con  col-sm-12 col-md-12 col-lg-4">
+          <div class="card" style="width: 18rem;">
+              <!-- overlay-->
+          <div class="cardooverlay"> 
+              <img src="./images/ourteam.jpg" class="card-img-top rounded-circle " alt="image contain person">
+         <div class="card-img-overlay">
+             <!--overlay caption-->
+         <div class="caption">   
+              <a href="#"><i style="font-size:25px;" class="fab fa-facebook"></i></a>
+              <a href="#"><i style=" font-size:25px;" class="fab fa-twitter"></i></a>
+              <a href="#"><i style=" font-size:25px;" class="fab fa-whatsapp"></i></a>
+              <a href="#"><i style="font-size:25px;" class="fab fa-youtube"></i></a>
+          </div></div></div> 
+                <!--card body & content-->
+          <div class="card-body">
+              <h5 class="card-title">John Due</h5>
+              <p style="text-align: center" class="card-title ;"><span>CEO</span></p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div></div></div>  
+          <div class="con  col-sm-12 col-md-12 col-lg-4  ">
+          <div class="card  " style="width: 18rem;">
+          <!-- overlay-->
+          <div class="cardooverlay"> 
+              <img src="./images/ourteam.jpg" class="card-img-top rounded-circle " alt="image contain person">
+         <div class="card-img-overlay">
+             <!--overlay caption-->
+         <div class="caption">   
+              <a href="#"><i style="font-size:25px;" class="fab fa-facebook"></i></a>
+              <a href="#"><i style=" font-size:25px;" class="fab fa-twitter"></i></a>
+              <a href="#"><i style=" font-size:25px;" class="fab fa-whatsapp"></i></a>
+              <a href="#"><i style="font-size:25px;" class="fab fa-youtube"></i></a>
+          </div></div></div> 
+                <!--card body & content-->
+          <div class="card-body">
+              <h5 class="card-title">John Due</h5>
+              <p style="text-align: center" class="card-title ;"><span>CEO</span></p>                         
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div></div></div>
+          </div></div></div></div>
+
+<!--end about page our team-->
+
+    <!--Start Our Clients-->
+    <div class="container" id='clients'>
+
+        <div class="row heading">
+
+            <h2>Our Clients</h2>
+
+        </div>
+
+        <div class="about-slider">
+            <div><img class="about-slider-img" src="images/about-slide1.png" title="phone" alt="" width="200px" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide2.png" title="phone" alt="" width="200px" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide3.png" title="phone" alt="" width="200px" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide4.png" title="phone" alt="" width="200px" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide5.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide6.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide7.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide8.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide9.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide10.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide11.png" title="phone" alt="" width="" height="50px"></div>
+            <div><img class="about-slider-img" src="images/about-slide12.png" title="phone" alt="" width="" height="50px"></div>
+        </div>
+
+    </div>
+      
+    <!-- End our Clients -->
+
+
+    
+    <!--Start Footer -->
+
+    <footer>
+
+        <div class="overlay"></div>
+
+        <div class="container">
+
+          <div class="wrapper row">
+
+            <div class="textBlock col-md-6 col-lg-4">
+
+              <h2>Text Block</h2>
+              <p>Add any content element into this footer section via Visual Composer. Also you can change sizes, colors, background image of all footer sections.</p>
+              <p>Goodbuy unconvenient widget-oriented content of footer areas! Customize your footer as any other page section!</p>
+            
+            </div>
+            <!--start location -->
+            <div class="location col-md-6 col-lg-4" id='map'>
+              
+              <h2>Our Location</h2>
+              
+              <div class="mapouter">
+
+                <div class="gmap_canvas">
+
+                  <iframe width="500" height="230" id="gmap_canvas" src="https://maps.google.com/maps?q=Room%20Squared%20Coworking%20Space&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <a href="https://www.enable-javascript.net">leggi altro</a>
+                </div><style>.mapouter{position:relative;text-align:right;height:230px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:230px;width:300px;}</style>
+              
+              </div>
+              <!-- End Location -->
+            </div>
+
+            <div class="contacts col-md-12 col-lg-4">
+
+              <div class="main-contacts">
+
+                <h2>Contacts</h2>
+
+                <a class="message" href="#">info@example.com</a>
+
+                <a class="phone" href="#">+01011425536</a>
+
+                <a class="address" href="#">1600 Amphitheatre Pkwy Mountain View,</a>
+              
+              </div>
+
+              <div class="social-contacts">
+
+                <ul class="d-flex">
+                  
+                  <a href="https://www.facebook.com/A.ElsayedVIP/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/abdullah-elsayed" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+                    <a href="https://www.instagram.com/abdulla_elsayed" target="_blank"><i class="fab fa-instagram"></i></a>
+                
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </footer>
+
+      <section class="copy-right">
+
+        <div class="container">
+
+          <div class="wrapper">
+
+            <p>© Copyright 2019 | All Rights Reserved | Powered by<a href="#">Light Up</a></p>
+          
+          </div>
+
+        </div>
+
+      </section>
+    <!--End Footer -->
+    
+    <!--Start Scripts -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
